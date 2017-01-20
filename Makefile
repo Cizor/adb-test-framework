@@ -8,7 +8,12 @@ FILE= src/main.cpp \
 		src/EventButton.cpp \
 		src/EventButtonBox.cpp \
 		src/MainWindow.cpp \
-		src/InfoLabel.cpp
+		src/InfoLabel.cpp \
+		src/HeadLabel.cpp \
+		src/DataLabel.cpp \
+		src/BasicSeparator.cpp \
+		src/HorizontalSeparator.cpp \
+		src/VerticalSeparator.cpp 
 		
 FILE_INCLUDE= -Iinclude \
 				include/GridInfo.h \
@@ -18,7 +23,12 @@ FILE_INCLUDE= -Iinclude \
 				include/EventButton.h \
 				include/EventButtonBox.h \
 				include/MainWindow.h \
-				include/InfoLabel.h
+				include/HeadLabel.h \
+				include/InfoLabel.h \
+				include/DataLabel.h \
+				include/BasicSeparator.h \
+				include/HorizontalSeparator.h \
+				include/VerticalSeparator.h 
 EXE= -o app
 CXX_OPTIONS= `pkg-config gtkmm-3.0 --cflags --libs` --std=c++11
 

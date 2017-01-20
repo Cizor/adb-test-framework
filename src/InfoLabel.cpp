@@ -7,5 +7,5 @@ InfoLabel::InfoLabel()
 
 InfoLabel::~InfoLabel()
 {
-	std::cout<<"I am InfoLabel constructor"<<std::endl;
+	std::cout<<"I am InfoLabel destructor"<<std::endl;
 }
